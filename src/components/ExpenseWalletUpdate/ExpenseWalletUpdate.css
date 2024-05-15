@@ -1,0 +1,70 @@
+.wallet-container {
+    height: fit-content;
+    margin: 40px;
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+}
+
+.wallet-income-expense-container{
+    display: flex;
+    width: 50%;
+    flex: wrap;
+}
+  
+/* .chart-container{
+  margin-top: 40px;
+} */
+.wallet-card-container {
+  margin: 40px;
+  padding: 20px;
+  min-width: 300px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(10px); 
+}
+
+.wallet-card-container h2{
+  color: white;
+}
+.wallet-card-container > button {
+  width: 60%;
+  margin: 10px auto;
+  height: 50px;
+  cursor: pointer;
+}
+
+.income-amount {
+  color: green;
+}
+
+.btn-income{
+  background-color: rgb(68, 223, 68);
+  border-radius: 10px;
+  border: 1px solid rgb(68, 223, 68);
+}
+
+.btn-expense{
+    background-color: rgb(202, 70, 70);
+    border-radius: 10px;
+    border: 1px solid rgb(202, 70, 70);
+}
+
+.expense-amount {
+  color: red;
+}
+
